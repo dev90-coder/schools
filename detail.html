@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            height:400px;
+            width:500px;
+            border:2px solid black;
+            display: flex;
+            flex-direction: column;
+            
+            padding:10px 10px;
+            margin-left:auto;
+            margin-right: auto;
+            margin-top:10px
+        }
+        label{
+            font-family:arial;
+            font-size:18px
+        }
+        .ad{
+            height:25px;
+            border:2px solid #99649A;
+            width:98%;
+            margin:5px;
+            outline:none;
+            border-radius: 5px;
+
+        }
+        button{
+            height:25px;
+            width:200px;
+            font-size:18px;
+            color:white;
+            background-color: coral;
+            
+            margin-top:10px;
+            border-radius: 5px;
+            border:2px solid coral;
+            
+        }
+    </style>
+</head>
+<body>
+<div class="form">
+    <form action="#" method="POST">
+
+<label for="admission">Enter your Addmission number:</label><br>
+<input type="text" class="ad" name="admission" required>
+
+<label for="mobile">Enter your mobile number:</label><br>
+<input type="text" class="ad" name="mobile" required>
+
+<center><button type="submit">Fetch\Get details</button></center>
+    </form>
+</div>
+<center>
+<table border="1" bordercolor="rgb(11, 138, 91);" style="margin-top:10px">
+    <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Mother's name</th>
+        <th>Father's name</th>
+        <th>Mobile number</th>
+        <th>D.O.B.</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</center>
+</body>
+</html>
