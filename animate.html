@@ -1,0 +1,28 @@
+<html>
+<head>
+    <style>
+        .master, .l {
+            height: 200px;
+            width: 200px;
+            perspective: 500px;
+        }
+        .l {
+            background-color: green;
+            transition: 0.1s;
+            animation: forw 4s infinite alternate;
+        }
+        @keyframes forw {
+		0%,25%,50%{transform:rotateY(0deg);background-color:green}
+75%,100%{transform:rotateY(180deg);background-color:red}
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+    <div class='master'>
+        <div class='l'>
+      
+        </div>
+    </div>
+</body>
+</html>
